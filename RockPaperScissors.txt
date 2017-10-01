@@ -1,16 +1,19 @@
 let RPS = (player1, player2) => {
-   if (player1 === “Rock” && player2 === “Scissors”) {
-   console.log(“Rock beats Scissors! Player 1 wins this round!”);
-} else if (player1 === “Paper” && player2 === “Rock”) {
-   console.log(“Paper beats Rock! Player 1 wins this round!”);
-} else if (player1 === “Scissors” && player2 === “Paper”) {
-   console.log(“Scissors beats Paper! Player 1 wins this round!”);
-} else if (player2 === “Rock” && player1 === “Scissors”) {
-   console.log(“Rock beats Scissors! Player 2 wins this round!”);
-} else if (player2 === “Paper” && player1 === “Rock”) {
-   console.log(“Paper beats Rock! Player 2 wins this round!”);
-} else if (player2 === “Scissors” && player1 === “Paper”) {
-   console.log(“Scissors beats Paper! Player 2 wins this round!”);
-} else {console.log(“It’s a tie!);
+   if (player1 === 'Rock' && player2 === 'Scissors') {
+   console.log('Rock beats Scissors! Player 1 wins this round!');
+} else if (player1 === 'Paper' && player2 === 'Rock') {
+   console.log('Paper beats Rock! Player 1 wins this round!');
+} else if (player1 === 'Scissors' && player2 === 'Paper') {
+   console.log('Scissors beats Paper! Player 1 wins this round!');
+} else if (player2 === 'Rock' && player1 === 'Scissors') {
+   console.log('Rock beats Scissors! Player 2 wins this round!');
+} else if (player2 === 'Paper' && player1 === 'Rock') {
+   console.log('Paper beats Rock! Player 2 wins this round!');
+} else if (player2 === 'Scissors' && player1 === 'Paper') {
+   console.log('Scissors beats Paper! Player 2 wins this round!');
+} else {console.log('It’s a tie!');
   }
 }
+
+
+console.log(RPS('Paper', 'Scissors'));
