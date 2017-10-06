@@ -1,0 +1,34 @@
+body {
+    background:#FFFFFF;
+}
+
+h3 {
+    color: #000000;
+    font-size: 28px;
+    font-family: Georgia;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.5;
+    font-family: Georgia;
+    word-spacing: 0.05em;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  p {
+      font-size: 18px;
+      text-align: center;
+
+  }
+
+  .weapons {
+    display: inline-block;
+    width: 200px;
+    height: 125px;
+    text-align: center;
+  }

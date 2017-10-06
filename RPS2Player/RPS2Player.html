@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="RPS2Player.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="RPS2Player.js"></script>
+</head>
+
+<body>
+    <h3>Rock Paper Scissors</h3>
+    <h4>Choose your Weapon</h4>
+    <div class="weapons">
+        <a><img src="rock.png" onclick="createUserHand('Rock')"
+            alt="Rock"
+            width="150" height="125" border="0" /></a>
+    </div>
+    <div class="weapons">
+        <a><img src="paper.jpg" onclick="createUserHand('Paper')"
+            alt="Paper"
+            width="150" height="125" border="0" /></a>
+    </div>
+    <div class="weapons">
+        <a><img src="scissors.jpg" onclick="createUserHand('Scissors')"
+            alt="Scissors"
+            width="150" height="125" border="0" /></a>
+    </div>
+    
+    <div id="Who Won Text"></div>
+    <h4>Current Round Number:</h4>
+    <h4 id="Round Number">1</h4>
+    <br>
+    <div>
+        <p style="text-align: center">Wins | Loses | Ties</p>
+        <div style="text-align: center">
+            <a id="Wins">0    </a><a style="margin-left:2.5em" id="Loses">0    </a><a style="margin-left:2.5em" id="Ties">0    </a>
+        </div>
+    </div>
+</body>
+
+
+
+<!-- <Code from https://www.tutorialspoint.com/javascript/javascript_dialog_boxes.htm -->
+<!-- <head>
+        
+           <script type="text/javascript">
+              
+                 function getConfirmation(){
+                    var retVal = confirm("Do you want to continue ?");
+                    if( retVal == true ){
+                       document.write ("User wants to continue!");
+                       return true;
+                    }
+                    else{
+                       document.write ("User does not want to continue!");
+                       return false;
+                    }
+                 }
+                 <p>Click the following button to see the result: </p>
+            
+            <form>
+               <input type="button" value="Click Me" onclick="getConfirmation();" />
+            </form>
+              //-->
